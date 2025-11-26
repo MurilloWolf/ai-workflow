@@ -16,16 +16,16 @@ Think in blocks of code: each block can be changed, moved, and updated without a
   
 |-- README.md  
 |-- workflow/  
-| |-- agent.md  
-| |-- pipeline/  
-| | |-- templates/  
-| | |-- feature_pipeline.md  
-| | |-- bugfix_pipeline.md  
-| | |-- test_pipeline.md  
-| |-- backlog/  
-| |-- features  
-| |-- bugfixes  
-| |-- tests  
+|  |-- agent.md  
+|  |-- pipeline/  
+|  |  |-- templates/  
+|  |  |-- feature_pipeline.md  
+|  |  |-- bugfix_pipeline.md  
+|  |  |-- test_pipeline.md  
+|  |-- backlog/  
+|  |-- features  
+|  |-- bugfixes  
+|  |-- tests  
 |-- workflow-example/  
   
 - `agent.md`: This can be a single file or an entire repository that defines the AI agents available to the pipelines.
