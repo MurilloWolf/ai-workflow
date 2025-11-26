@@ -1,4 +1,4 @@
-<img src="./cover.png" alt="AI Workflow Logo" width="1080" height="150"/>
+<img src="./cover.png" alt="AI Workflow Logo" width="1080" height="220"/>
 
 # Ai-Workflow
 
