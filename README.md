@@ -13,21 +13,21 @@ This repository provides a lightweight framework for using AI agents in a struct
 Think in blocks of code: each block can be changed, moved, and updated without affecting the rest of the system. Every block has a specific function, and they can be combined to create complex workflows.
 
 ## Structure
-
-|-- README.md
-|-- workflow/
-| |-- agent.md
-| |-- pipeline/
-| | |-- templates/
-| | |-- feature_pipeline.md
-| | |-- bugfix_pipeline.md
-| | |-- test_pipeline.md
-| |-- backlog/
-| |-- features
-| |-- bugfixes
-| |-- tests
-|-- workflow-example/
-
+  
+|-- README.md  
+|-- workflow/  
+| |-- agent.md  
+| |-- pipeline/  
+| | |-- templates/  
+| | |-- feature_pipeline.md  
+| | |-- bugfix_pipeline.md  
+| | |-- test_pipeline.md  
+| |-- backlog/  
+| |-- features  
+| |-- bugfixes  
+| |-- tests  
+|-- workflow-example/  
+  
 - `agent.md`: This can be a single file or an entire repository that defines the AI agents available to the pipelines.
 - `pipeline/`: This folder receives each task that the agent will work on, using a specific pipeline template from the `templates/` folder.
   - `templates/`: This contains different pipeline templates for various tasks such as feature development, bug fixing, and testing.
